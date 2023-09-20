@@ -1,0 +1,17 @@
+\documentclass[convert]{standalone}
+\usepackage{pgfplots}
+\usepackage{xcolor}
+
+
+\begin{document}
+\pgfsetplotmarksize{0pt}
+\begin{tikzpicture}
+\begin{axis}
+            [
+            xlabel={$\frac{U_x}{U_{inlet}}$}, 
+            ylabel= {$\frac{y}{D}$},
+            ]
+        \addplot table [x=Ux, y=y, col sep=comma] {output.csv};
+        \end{axis}
+\end{tikzpicture}
+\end{document}

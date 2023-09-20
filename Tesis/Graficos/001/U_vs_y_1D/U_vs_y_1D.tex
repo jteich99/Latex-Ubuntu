@@ -1,0 +1,30 @@
+\documentclass[convert]{standalone}
+\usepackage{pgfplots}
+\usepackage{xcolor}
+
+
+\begin{document}
+\pgfsetplotmarksize{0pt}
+\begin{tikzpicture}
+\begin{axis}
+            [
+            xlabel={$\frac{U_x}{U_{inlet}}$}, 
+            ylabel= {$\frac{y}{D}$},
+            legend pos=north west,
+            ymajorgrids=true,
+            xmajorgrids=true,
+    			grid style=dashed,
+            ]
+		\addplot[red] table [x=Ux, y=y, col sep=comma] {D1_U_rel_2.csv};
+        \addlegendentry{2 celdas por D}     		
+		\addplot[green] table [x=Ux, y=y, col sep=comma] {D1_U_rel_4.csv};
+        \addlegendentry{4 celdas por D}        
+        \addplot[blue] table [x=Ux, y=y, col sep=comma] {D1_U_rel_5.csv};
+        \addlegendentry{5 celdas por D}
+        \addplot[cyan] table [x=Ux, y=y, col sep=comma] {D1_U_rel_7.csv};
+        \addlegendentry{7 celdas por D}
+        \addplot[orange] table [x=Ux, y=y, col sep=comma] {D1_U_rel_9.csv};
+        \addlegendentry{9 celdas por D}
+        \end{axis}
+\end{tikzpicture}
+\end{document}

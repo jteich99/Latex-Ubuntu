@@ -1,0 +1,150 @@
+\documentclass{article}
+
+\usepackage[utf8]{inputenc} %tipo de letra
+
+\usepackage[spanish,es-nodecimaldot]{babel} %idioma
+\usepackage{graphicx} 
+\usepackage{mathtools}
+\usepackage{float}
+\usepackage{multicol}
+\usepackage[a4paper, headsep=24pt, headheight=2cm]{geometry}
+\usepackage{anysize} 
+\usepackage{accents}
+\usepackage{changepage}
+\usepackage{caption}
+\usepackage[affil-it]{authblk}
+\usepackage{tikz}
+\usepackage{physics}
+%\usepackage[]{minted}
+\usepackage{hyperref}%para poner hiperreferencias, tipo links
+\usepackage{esint}
+\usepackage{titling}
+\usepackage{bm}
+\usepackage{import}
+\usepackage[final]{pdfpages}
+\usepackage{cancel}
+
+\usepackage{blindtext}
+\usepackage{chemfig}%ecuaciones químicas
+\usepackage{chemformula}%idem
+\usepackage[version=4]{mhchem}%idem
+\usepackage{siunitx}%unidades del sistema internacional
+\usepackage{enumitem}
+
+\usepackage{verbatim}
+\usepackage{amsmath}%matematica
+%\setcounter{MaxMatrixCols}{20}
+
+\usepackage{array,booktabs}
+%\usepackage[separate-uncertainty = true]{siunitx}
+%\sisetup{output-decimal-marker = {,}}
+%\usepackage{placeins}
+
+%\usepackage{mathabx}
+\usepackage{amssymb}
+
+\usetikzlibrary{arrows}%Este no necesita mucha explicación
+
+\usepackage{fancyhdr}
+\pagestyle{plain}
+
+\usepackage{framed}%para frames en todo entorno
+
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.15}
+\usepackage{mathrsfs}
+\usetikzlibrary{arrows}
+
+\usepackage{hyperref}
+\hypersetup{
+%bookmarks=true,         % show bookmarks bar
+unicode=false,          % non-Latin characters in Acrobat’s bookmarks
+pdftoolbar=true,        % show Acrobat’s toolbar?
+pdfmenubar=true,        % show Acrobat’s menu?
+pdffitwindow=false,     % window fit to page when opened
+pdftitle={SHyN},    % title
+pdfauthor={JTeich},     % author
+pdfsubject={},          % subject of the document
+pdfkeywords={},
+colorlinks=true,        % false: boxed links, true: colored links
+linkcolor=black,        % color of internal links (change box color with linkbordercolor)
+citecolor=black,        % color of links to bibliography
+filecolor=magenta,      % color of file links
+urlcolor=black           % color of external links
+}
+\usepackage{multicol}
+\usepackage{outlines}
+
+
+\newcommand{\thetitle}{Propuesta de Tesis de Ingeniería Mecánica}
+\newcommand{\theauthorJT}{Juan Ignacio Teich}
+\newcommand{\thedate}{Septiembre 2023}
+%\newcommand{\theclass}{Sistemas Hidráulicos y Neumáticos}
+%\newcommand{\thecourse}{}
+%\newcommand{\thecareer}{}
+\usepackage{fancyhdr}
+\usepackage[T1]{fontenc}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[R]{\footnotesize{\href{mailto:jteich@fi.uba.ar}{\theauthorJT}}}
+%\fancyhead[C]{\large{\theclass}\\  \large{\thetitle} }
+\fancyhead[L]{\begin{picture}(0,0) \put(0,0){\includegraphics[width=2cm]{Logo-fiuba.png}} \end{picture}}
+%\rfoot{\thepage}
+\usepackage{lastpage}
+\rfoot{\thepage}
+\allowdisplaybreaks
+\newcommand{\Cancel}[2][black]{{\color{#1}\cancel{\color{black}#2}}}
+
+\usetikzlibrary{shapes}
+\numberwithin{equation}{subsection}
+
+\usepackage{sectsty}
+\sectionfont{\large}
+
+\begin{document}
+%\newcommand{\matriz}[1]{\underline{\underline{\pmb{#1}}}}
+%\newcommand{\mmatriz}[1]{\underline{\underline{\underline{\pmb{#1}}}}}
+%\newcommand{\vect}[1]{\underline{\bm{#1}}}
+
+%\begin{titlepage}
+%    \centering
+%    \includegraphics[width=0.25\textwidth]{Logo-fiuba.png}\\
+%    \vspace{1cm}
+%    {\bfseries \LARGE Facultad de Ingeniería}\\
+%    \vspace{0.5cm}
+%    {\scshape \Large Universidad de Buenos Aires}\\
+%    \vspace{3cm}
+%    {\scshape \Huge \thetitle}\\
+%    \vspace{1cm}
+%    {\scshape \Large \theclass}\\
+%    \vfill
+%    {\Large \theauthorJT}
+%    \vfill
+%    {\Large \thedate}
+%\end{titlepage}
+
+\begin{center}
+	{\bfseries \LARGE \thetitle}
+\end{center}
+
+\noindent \textbf{Alumno:} Juan Ignacio Teich\\
+\textbf{Director:} Dr. Alejandro Daniel Otero\\
+\textbf{Co-Director:} Ing. Dimas Alejandro Barile\\
+\textbf{Título:} \textit{Análisis paramétrico de actuadores discales para simulación de aerogeneradores en campos eólicos.}\\
+
+\textbf{\Large Descripción del tema}
+\section{Resumen}
+
+
+\section{Estado actual del conocimiento sobre el Tema}
+
+
+\section{Objetivos}
+
+
+\section{Cronograma de tareas}
+
+
+\section{Referencias}
+
+\end{document}
