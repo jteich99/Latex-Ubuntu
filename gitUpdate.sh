@@ -4,4 +4,4 @@ echo Nombre del commit
 read nombre_commit
 
 git commit -m $nombre_commit
-git push --set-upstream origin main
+git push -u origin main
