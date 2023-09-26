@@ -1,0 +1,71 @@
+// esquinas del mallado x=x1, y=x2, z=x3
+x_0 0;
+y_0 0;
+z_0 0;
+x_1 2500.0;
+y_1 0;
+z_1 0;
+x_2 2500.0;
+y_2 900.0;
+z_2 0;
+x_3 0;
+y_3 900.0;
+z_3 0;
+x_4 0;
+y_4 0;
+z_4 900.0;
+x_5 2500.0;
+y_5 0;
+z_5 900.0;
+x_6 2500.0;
+y_6 900.0;
+z_6 900.0;
+x_7 0;
+y_7 900.0;
+z_7 900.0;
+
+// cantidad de celdas en cada dirección (c_x c_y c_z)
+c_x 175.0;
+c_y 63.0;
+c_z 63.0;
+
+// grado de expansión de celdas en cada dirección (ce_x ce_y ce_z)
+ce_x 1;
+ce_y 1;
+ce_z 1;
+
+// zona de refinado de la turbina
+// se considera actuador en el centro de la altura del tunel
+x1b_0 500.0;
+x1b_1 2500.0;
+x2b_0 300.0;
+x2b_1 600.0;
+x3b_0 300.0;
+x3b_1 600.0;
+
+// para el topoSectDict armo las esquians de la box que encasilla al actuador
+ // considero un actuador con 3 celdas de ancho
+x1d_1 500.0;
+x1d_2 521.4285714285714;
+x2d_1 400.0;
+x2d_2 500.0;
+x3d_1 400.0;
+x3d_2 500.0;
+
+// variables para el fvOptions
+Uinf 10.0;
+Ct 0.65;
+Cp 0.3;
+yaw 0;
+pitch 0;
+omega 1;
+cellSize 10;
+Area 7853.981633974483;
+diskPoint_x 500.0;
+diskPoint_y 450.0;
+diskPoint_z 450.0;
+Uinlet 10.0;
+TI 0.05;
+TKE 0.375;
+TEpsilon 0.002952509957819009;
+TOmega 0.08748177652797062;
