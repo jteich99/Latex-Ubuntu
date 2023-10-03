@@ -1,5 +1,4 @@
 \documentclass{article}
-
 \usepackage[utf8]{inputenc} %tipo de letra
 
 \usepackage[spanish,es-nodecimaldot]{babel} %idioma
@@ -62,7 +61,7 @@ unicode=false,          % non-Latin characters in Acrobat’s bookmarks
 pdftoolbar=true,        % show Acrobat’s toolbar?
 pdfmenubar=true,        % show Acrobat’s menu?
 pdffitwindow=false,     % window fit to page when opened
-pdftitle={SHyN},    % title
+pdftitle={Propuesta-Tesis-IM-Teich},    % title
 pdfauthor={JTeich},     % author
 pdfsubject={},          % subject of the document
 pdfkeywords={},
@@ -75,10 +74,12 @@ urlcolor=black           % color of external links
 \usepackage{multicol}
 \usepackage{outlines}
 
+\usepackage{biblatex}
+\addbibresource{bibliografia.bib}
 
 \newcommand{\thetitle}{Propuesta de Tesis de Ingeniería Mecánica}
 \newcommand{\theauthorJT}{Juan Ignacio Teich}
-\newcommand{\thedate}{Septiembre 2023}
+\newcommand{\thedate}{Octubre 2023}
 %\newcommand{\theclass}{Sistemas Hidráulicos y Neumáticos}
 %\newcommand{\thecourse}{}
 %\newcommand{\thecareer}{}
@@ -86,7 +87,7 @@ urlcolor=black           % color of external links
 \usepackage[T1]{fontenc}
 \pagestyle{fancy}
 \fancyhf{}
-\fancyhead[R]{\footnotesize{\href{mailto:jteich@fi.uba.ar}{\theauthorJT}}}
+\fancyhead[R]{\footnotesize{\thetitle \\ \href{mailto:jteich@fi.uba.ar}{\theauthorJT} \\ \thedate }}
 %\fancyhead[C]{\large{\theclass}\\  \large{\thetitle} }
 \fancyhead[L]{\begin{picture}(0,0) \put(0,0){\includegraphics[width=2cm]{Logo-fiuba.png}} \end{picture}}
 %\rfoot{\thepage}
@@ -100,6 +101,8 @@ urlcolor=black           % color of external links
 
 \usepackage{sectsty}
 \sectionfont{\large}
+
+\nocite{*}
 
 \begin{document}
 %\newcommand{\matriz}[1]{\underline{\underline{\pmb{#1}}}}
@@ -134,17 +137,55 @@ urlcolor=black           % color of external links
 
 \textbf{\Large Descripción del tema}
 \section{Resumen}
+En este trabajo se realizará un análisis de los distintos modelos de actuadores discales disponibles en la bibliografía, comparando los mismos variando parámetros estandarizados en los mismos casos típicos de la bibliografía. Se analizará el comportamiento de los mismos frente a distintas condiciones, como puede ser estar detrás de la estela de otro actuador, distintos perfiles de velocidad de entrada, distinta orientación frente al viento, etc. Esto permitirá realizar un análisis que compare los distintos modelos con el más preciso disponible (a saber, actuador \textit{airfoil}), y comparar costo computacional entre ellos.
 
+
+Este análisis permitirá tener un mejor entendimiento del mejor actuador a utilizar según el caso que se quiera simular, permitiendo ahorrar costo computacional al seleccionar el actuador más eficiente para cada caso.
 
 \section{Estado actual del conocimiento sobre el Tema}
 
 
 \section{Objetivos}
+Como objetivo general de este plan de investigación se propone el desarrollo de un análisis paramétrico de los distintos actuadores discales disponibles en la bibliografía, comparando su comportamiento y costo computacional frente al actuador \textit{airfoil}.\\
 
+\textbf{Objetivos específicos:}
+\begin{itemize}
+	\item 
+	\item 
+	\item 
+\end{itemize}
+
+\section{Metodología y plan de trabajo}
+A la hora de simular aerogeneradores, el uso del actuador discal presenta la ventaja de ahorrar significantes recursos de cómputo, permitiendo calcular el comportamiento del fluido aguas abajo de manera precisa. Este modelo consiste de un disco con fuerzas equivalentes a las desarrolladas sobre las aspas de una turbina real. Al no necesitar incluir el detalle de las aspas, el costo computacional resultante es sumamente menor.
+
+Dentro de los distintos modelos de actuadores se tiene una gama muy amplia de complejidad, dando resultados de variada satisfacción según el caso a simular. El modelo de actuador más preciso es el \textit{airfoil}, el cual incorpora la teoría del elemento de pala o perfil alar, desarrollando un disco con infinitos perfiles alares. El modelo más simple de actuador es el \textit{uniforme}, el cual distribuye de forma uniforme la fuerza del aerogenerador. Este modelo se encuentra muy limitado, solo pudiendo funcionar con velocidad uniforme a su entrada. Esto lo hace incapaz de simular diversos casos, como por ejemplo encontrarse en la estela de otro aerogenerador.
+
+Por otro lado, el modelo CFD se realizará con el software open-source OpenFOAM, utilizandolo para resolver las ecuaciones de Navier-Stokes con simulaciones RANS (Reynolds Average Navier Stokes). Este software permite la implementación de los actuadores y el desarrollo de los casos necesarios para el análisis. Además, la simulación de los casos a desarrollar impone la necesidad de simulaciones en paralelo utilizando una gran cantidad de procesadores, para lo cual el software OpenFOAM es adecuado.
+
+Se realizará un estudio bibliográfico de los actuadores desarrollados y además de características adicionales que puedan ser encendidas y apagadas al aplicar un aerogenerdor. Luego se desarrollarán diversos casos de prueba tomados de la bibliografía, y se compararán los actuadores con el actuador \textit{airfoil}, el cual es aceptado como el más preciso en representar la realidad, aunque el de mayor costo computacional.
 
 \section{Cronograma de tareas}
 
 
-\section{Referencias}
+%Referencias
+\newpage
+\nocite{*}
+\printbibliography
+
+\newpage
+\noindent \textbf{Ámbito de desarrollo propuesto}\\
+\indent Se propone como ámbito de trabajo el Centro de Simulación Computacional para Aplicaciones Tecnológicas (CSC, CONICET).\\
+
+\noindent  \textbf{Aval de Director, Co-Director y CV}\\
+\indent Se adjuntan los documentos.\\
+
+\noindent \textbf{Estimación de costos y la previsión de la fuente de financiamiento}\\
+\indent El Centro de Simulación Computacional para Aplicaciones Tecnológicas cuenta con computadoras disponibles para realizar las simulaciones necesarias.\\
+
+\noindent \textbf{Solicitud de Alta de TIM}\\
+\indent Sirva la presente propuesta de Tesis de Ingeniería Mecánica como solicitud formal de alta.\\
+
+\noindent  \textbf{Acta de acuerdo entre Director, Co-Director y Alumno}\\
+\indent Se adjuntan el documento.\\
 
 \end{document}

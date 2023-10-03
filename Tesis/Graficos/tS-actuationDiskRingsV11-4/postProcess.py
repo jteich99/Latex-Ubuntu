@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Mon Sep 18 18:40:44 2023
-
-@author: juan
+----------------------------------------
+created by Juan Ignacio Teich
+facultad de Ingeniería, UBA
+jteich@fi.uba.ar
+----------------------------------------
 """
 
 import csv

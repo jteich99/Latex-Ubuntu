@@ -1,0 +1,279 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{NAVARRODIAZ2021121642}{article}{}
+      \name{author}{3}{}{%
+        {{hash=3f5124d505ef7f7ae31660c1f26caa2e}{%
+           family={Diaz},
+           familyi={D\bibinitperiod},
+           given={Gonzalo\bibnamedelimb P.\bibnamedelimi Navarro},
+           giveni={G\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=61134f7637585dd7d18dad84ec88102c}{%
+           family={Saulo},
+           familyi={S\bibinitperiod},
+           given={A.\bibnamedelimi Celeste},
+           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=e9dfc324882e03c19177e6f57104c06b}{%
+           family={Otero},
+           familyi={O\bibinitperiod},
+           given={Alejandro\bibnamedelima D.},
+           giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{8d5c29ba9ed9dd819d3034134013ba09}
+      \strng{fullhash}{8d5c29ba9ed9dd819d3034134013ba09}
+      \strng{bibnamehash}{8d5c29ba9ed9dd819d3034134013ba09}
+      \strng{authorbibnamehash}{8d5c29ba9ed9dd819d3034134013ba09}
+      \strng{authornamehash}{8d5c29ba9ed9dd819d3034134013ba09}
+      \strng{authorfullhash}{8d5c29ba9ed9dd819d3034134013ba09}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0360-5442}
+      \field{journaltitle}{Energy}
+      \field{title}{Full wind rose wind farm simulation including wake and terrain effects for energy yield assessment}
+      \field{volume}{237}
+      \field{year}{2021}
+      \true{nocite}
+      \field{pages}{121642}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.energy.2021.121642
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0360544221018909
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0360544221018909
+      \endverb
+      \keyw{Wind farm,Capacity factor,Terrain effect,Wake effect,Actuator disc model}
+    \endentry
+    \entry{Gunn_2016}{article}{}
+      \name{author}{9}{}{%
+        {{hash=f87a899a79d9d1a67f57768eedae8f0a}{%
+           family={Gunn},
+           familyi={G\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=d946124ead0b17bc96aee69881455e50}{%
+           family={Stock-Williams},
+           familyi={S\bibinithyphendelim W\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=31d4f92abc49e335bd0880284dee11a2}{%
+           family={Burke},
+           familyi={B\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=1e82d36aff9535d293739bf952d6545e}{%
+           family={Willden},
+           familyi={W\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=68007bf9d8e24fdfc1159a62c6f0e580}{%
+           family={Vogel},
+           familyi={V\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=4c0be1aedcf437552cedef033845e4a0}{%
+           family={Hunter},
+           familyi={H\bibinitperiod},
+           given={W},
+           giveni={W\bibinitperiod}}}%
+        {{hash=82d940b6d84f918318f1f3b16beb970e}{%
+           family={Stallard},
+           familyi={S\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=a7d7df771754eaa15ae5d120eb144e40}{%
+           family={Robinson},
+           familyi={R\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=5126067e5f251394cfe57f82bcc13a0a}{%
+           family={Schmidt},
+           familyi={S\bibinitperiod},
+           given={S.\bibnamedelimi R.},
+           giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{11fdf960e4945a5d66f0cc35d0b33ab9}
+      \strng{fullhash}{2037edd4ba4b867310eee00c99a1233e}
+      \strng{bibnamehash}{11fdf960e4945a5d66f0cc35d0b33ab9}
+      \strng{authorbibnamehash}{11fdf960e4945a5d66f0cc35d0b33ab9}
+      \strng{authornamehash}{11fdf960e4945a5d66f0cc35d0b33ab9}
+      \strng{authorfullhash}{2037edd4ba4b867310eee00c99a1233e}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Physics: Conference Series}
+      \field{title}{Limitations to the validity of single wake superposition in wind farm yield assessment}
+      \field{volume}{749}
+      \field{year}{2016}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.1088/1742-6596/749/1/012003
+      \endverb
+      \verb{urlraw}
+      \verb https://dx.doi.org/10.1088/1742-6596/749/1/012003
+      \endverb
+      \verb{url}
+      \verb https://dx.doi.org/10.1088/1742-6596/749/1/012003
+      \endverb
+    \endentry
+    \entry{LazzariThesis}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=9f53652c8c21e95ae86467db36ba88fb}{%
+           family={Lazzari},
+           familyi={L\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Universidad de Buenos Aires. Facultad de Ciencias Exactas y Naturales}%
+      }
+      \strng{namehash}{9f53652c8c21e95ae86467db36ba88fb}
+      \strng{fullhash}{9f53652c8c21e95ae86467db36ba88fb}
+      \strng{bibnamehash}{9f53652c8c21e95ae86467db36ba88fb}
+      \strng{authorbibnamehash}{9f53652c8c21e95ae86467db36ba88fb}
+      \strng{authornamehash}{9f53652c8c21e95ae86467db36ba88fb}
+      \strng{authorfullhash}{9f53652c8c21e95ae86467db36ba88fb}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Simulación computacional de estelas en parques eólicos}
+      \field{year}{2018}
+      \true{nocite}
+    \endentry
+    \entry{NavarroThesis}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=897e297c4bd92e2eb3ffb02d23cda406}{%
+           family={Navarro\bibnamedelima Diaz},
+           familyi={N\bibinitperiod\bibinitdelim D\bibinitperiod},
+           given={G.\bibnamedelimi P.},
+           giveni={G\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Universidad de Buenos Aires. Facultad de Ciencias Exactas y Naturales}%
+      }
+      \strng{namehash}{897e297c4bd92e2eb3ffb02d23cda406}
+      \strng{fullhash}{897e297c4bd92e2eb3ffb02d23cda406}
+      \strng{bibnamehash}{897e297c4bd92e2eb3ffb02d23cda406}
+      \strng{authorbibnamehash}{897e297c4bd92e2eb3ffb02d23cda406}
+      \strng{authornamehash}{897e297c4bd92e2eb3ffb02d23cda406}
+      \strng{authorfullhash}{897e297c4bd92e2eb3ffb02d23cda406}
+      \field{sortinit}{N}
+      \field{sortinithash}{98cf339a479c0454fe09153a08675a15}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Simulación del efecto de la interacción de turbinas eólicas con su entorno}
+      \field{year}{2019}
+      \true{nocite}
+    \endentry
+    \entry{wes-8-363-2023}{article}{}
+      \name{author}{5}{}{%
+        {{hash=897e297c4bd92e2eb3ffb02d23cda406}{%
+           family={Navarro\bibnamedelima Diaz},
+           familyi={N\bibinitperiod\bibinitdelim D\bibinitperiod},
+           given={G.\bibnamedelimi P.},
+           giveni={G\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=e5f8fa3e918e523cff882f1dcb34c17a}{%
+           family={Otero},
+           familyi={O\bibinitperiod},
+           given={A.\bibnamedelimi D.},
+           giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=58bc89fde5f714505a3c54db58f7d0a1}{%
+           family={Asmuth},
+           familyi={A\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=570d3614197d31eae0d86ed2f3bebff9}{%
+           family={Sorensen},
+           familyi={S\bibinitperiod},
+           given={J.\bibnamedelimi N.},
+           giveni={J\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=5421fa56c08d8beb41cdab30d6c7244a}{%
+           family={Ivanell},
+           familyi={I\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{deeb49ff6dc81f598a9e63993db42f43}
+      \strng{fullhash}{b8f57dfd5d212977d15e562610c970a3}
+      \strng{bibnamehash}{deeb49ff6dc81f598a9e63993db42f43}
+      \strng{authorbibnamehash}{deeb49ff6dc81f598a9e63993db42f43}
+      \strng{authornamehash}{deeb49ff6dc81f598a9e63993db42f43}
+      \strng{authorfullhash}{b8f57dfd5d212977d15e562610c970a3}
+      \field{sortinit}{N}
+      \field{sortinithash}{98cf339a479c0454fe09153a08675a15}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Wind Energy Science}
+      \field{number}{3}
+      \field{title}{Actuator line model using simplified force calculation methods}
+      \field{volume}{8}
+      \field{year}{2023}
+      \true{nocite}
+      \field{pages}{363\bibrangedash 382}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.5194/wes-8-363-2023
+      \endverb
+      \verb{urlraw}
+      \verb https://wes.copernicus.org/articles/8/363/2023/
+      \endverb
+      \verb{url}
+      \verb https://wes.copernicus.org/articles/8/363/2023/
+      \endverb
+    \endentry
+    \entry{SpiritoThesis}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=ec923c10519b20c43eb30209a39018eb}{%
+           family={Spirito},
+           familyi={S\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Universidad de Buenos Aires. Facultad de Ingeniería}%
+      }
+      \strng{namehash}{ec923c10519b20c43eb30209a39018eb}
+      \strng{fullhash}{ec923c10519b20c43eb30209a39018eb}
+      \strng{bibnamehash}{ec923c10519b20c43eb30209a39018eb}
+      \strng{authorbibnamehash}{ec923c10519b20c43eb30209a39018eb}
+      \strng{authornamehash}{ec923c10519b20c43eb30209a39018eb}
+      \strng{authorfullhash}{ec923c10519b20c43eb30209a39018eb}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Simulación computacional de estelas y su interacción con el terreno en parques eólicos mediante modelos reducidos de estelas}
+      \field{year}{2023}
+      \true{nocite}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

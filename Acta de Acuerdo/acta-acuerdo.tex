@@ -1,0 +1,26 @@
+\documentclass{letter}
+\usepackage[a4paper,left=2.5cm, right=2.5cm, top=2.5cm, bottom=2.5cm]{geometry}
+\usepackage{graphicx}
+\usepackage[english,french,spanish]{babel}
+\AtBeginDocument{\selectlanguage{spanish}}
+%\signature{Firma Tesista \hspace{1cm} Firma Co-Director \hspace{1cm} Firma Director}
+\signature{
+	\begin{tabular}{c p{2cm} c p{2cm} c}
+		~ & ~ & ~ & ~ & ~ \\
+		~ & ~ & ~ & ~ & ~ \\
+		Juan Ignacio Teich & ~ & Dr. Alejandro Otero & ~ & Ing. Dimas Barile \\
+		Firma Tesista  & ~ & Firma Director & ~ & Firma Co-Director\\
+	\end{tabular}
+}
+\address{Av. Paseo Colon 850 \\ Buenos Aires \\ Argentina}
+
+\longindentation=15pt
+\begin{document}
+
+\begin{letter}{\includegraphics[width=0.15\textwidth]{Logo-fiuba.png}\hfill}
+\opening{Miembros de la Comisión Curricular de Ingeniería Mecánica}
+Sirva la presente de acta de acuerdo entre los que suscriben. El Sr. Juan Ignacio Teich (padrón 102247) da su acuerdo para realizar la tesis de Ingeniería Mecánica `\textit{Análisis paramétrico de actuadores discales para simulación de aerogeneradores en campos eólicos}' y el Dr. Alejandro Otero y el Ing. Dimas Barile dan su acuerdo para actuar de director y co-director de dicha tesis respectivamente.
+\closing{" "}
+\end{letter}
+
+\end{document}

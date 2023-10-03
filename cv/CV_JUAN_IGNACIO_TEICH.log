@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2023.8.16)  14 SEP 2023 19:56
+This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2023.9.24)  2 OCT 2023 22:31
  restricted system commands enabled.
 **CV_JUAN_IGNACIO_TEICH.tex
 (./CV_JUAN_IGNACIO_TEICH.tex
@@ -66,8 +66,8 @@ Inserting `luaotfload.rewrite_fontname' at position 6 in `luaotfload.patch_font'
 Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
-luaotfload | db : Font names database not found, generating new one.
-luaotfload | db : This can take several minutes; please be patient.)
+luaotfload | db : Font names database loaded from /home/juan/.texlive2019/texmf-
+var/luatex-cache/generic-dev/names/luaotfload-names.luc)
 \c@part=\count163
 \c@section=\count164
 \c@subsection=\count165
@@ -91,88 +91,88 @@ File: switch.def 2020/02/14 3.40 Babel switching mechanism
 \l@dumylang=\language2
 Package babel Info: Non-standard hyphenation setup on input line 117.
 \l@nohyphenation=\language3
-\l@coptic=\language4
-\l@spanish=\language5
-\l@swissgerman=\language6
-\l@hindi=\language7
-\l@serbianc=\language8
-\l@kannada=\language9
-\l@farsi=\language10
-\l@belarusian=\language11
-\l@welsh=\language12
-\l@esperanto=\language13
-\l@interlingua=\language14
-\l@arabic=\language15
-\l@romanian=\language16
-\l@kurmanji=\language17
-\l@turkmen=\language18
-\l@italian=\language19
-\l@telugu=\language20
-\l@usenglishmax=\language21
-\l@german=\language22
-\l@uppersorbian=\language23
-\l@turkish=\language24
-\l@ukrainian=\language25
-\l@churchslavonic=\language26
-\l@bulgarian=\language27
-\l@czech=\language28
-\l@slovenian=\language29
-\l@german-x-2019-04-04=\language30
-\l@pali=\language31
-\l@ancientgreek=\language32
-\l@polish=\language33
-\l@croatian=\language34
-\l@russian=\language35
-\l@swedish=\language36
-\l@danish=\language37
-\l@oriya=\language38
-\l@monogreek=\language39
-\l@ngerman-x-2019-04-04=\language40
-\l@basque=\language41
-\l@dutch=\language42
-\l@panjabi=\language43
-\l@romansh=\language44
-\l@afrikaans=\language45
-\l@bokmal=\language46
-\l@ngerman=\language47
-\l@assamese=\language48
-\l@tamil=\language49
-\l@indonesian=\language50
-\l@greek=\language51
-\l@gujarati=\language52
-\l@bengali=\language53
-\l@malayalam=\language54
-\l@thai=\language55
-\l@marathi=\language56
-\l@estonian=\language57
-\l@serbian=\language58
-\l@ibycus=\language59
-\l@french=\language60
-\l@ukenglish=\language61
-\l@latin=\language62
-\l@friulan=\language63
-\l@sanskrit=\language64
-\l@georgian=\language65
-\l@lithuanian=\language66
-\l@nynorsk=\language67
-\l@portuguese=\language68
-\l@galician=\language69
-\l@irish=\language70
-\l@catalan=\language71
-\l@pinyin=\language72
-\l@occitan=\language73
-\l@mongolianlmc=\language74
-\l@hungarian=\language75
-\l@latvian=\language76
-\l@classiclatin=\language77
-\l@armenian=\language78
-\l@mongolian=\language79
-\l@piedmontese=\language80
-\l@slovak=\language81
-\l@icelandic=\language82
-\l@ethiopic=\language83
-\l@liturgicallatin=\language84
-\l@finnish=\language85
+\l@icelandic=\language4
+\l@italian=\language5
+\l@lithuanian=\language6
+\l@finnish=\language7
+\l@mongolianlmc=\language8
+\l@galician=\language9
+\l@dutch=\language10
+\l@swedish=\language11
+\l@german=\language12
+\l@mongolian=\language13
+\l@kannada=\language14
+\l@georgian=\language15
+\l@greek=\language16
+\l@marathi=\language17
+\l@welsh=\language18
+\l@tamil=\language19
+\l@ngerman=\language20
+\l@coptic=\language21
+\l@sanskrit=\language22
+\l@armenian=\language23
+\l@ukrainian=\language24
+\l@indonesian=\language25
+\l@thai=\language26
+\l@ancientgreek=\language27
+\l@latin=\language28
+\l@monogreek=\language29
+\l@friulan=\language30
+\l@liturgicallatin=\language31
+\l@basque=\language32
+\l@spanish=\language33
+\l@usenglishmax=\language34
+\l@piedmontese=\language35
+\l@estonian=\language36
+\l@uppersorbian=\language37
+\l@swissgerman=\language38
+\l@romanian=\language39
+\l@turkish=\language40
+\l@portuguese=\language41
+\l@churchslavonic=\language42
+\l@slovenian=\language43
+\l@pinyin=\language44
+\l@arabic=\language45
+\l@esperanto=\language46
+\l@ethiopic=\language47
+\l@ibycus=\language48
+\l@occitan=\language49
+\l@danish=\language50
+\l@hindi=\language51
+\l@slovak=\language52
+\l@turkmen=\language53
+\l@interlingua=\language54
+\l@malayalam=\language55
+\l@hungarian=\language56
+\l@telugu=\language57
+\l@irish=\language58
+\l@bokmal=\language59
+\l@serbian=\language60
+\l@french=\language61
+\l@classiclatin=\language62
+\l@croatian=\language63
+\l@ngerman-x-2019-04-04=\language64
+\l@czech=\language65
+\l@russian=\language66
+\l@catalan=\language67
+\l@gujarati=\language68
+\l@bulgarian=\language69
+\l@nynorsk=\language70
+\l@farsi=\language71
+\l@pali=\language72
+\l@serbianc=\language73
+\l@belarusian=\language74
+\l@assamese=\language75
+\l@romansh=\language76
+\l@bengali=\language77
+\l@oriya=\language78
+\l@kurmanji=\language79
+\l@german-x-2019-04-04=\language80
+\l@latvian=\language81
+\l@polish=\language82
+\l@ukenglish=\language83
+\l@panjabi=\language84
+\l@afrikaans=\language85
 )
 (/usr/share/texlive/texmf-dist/tex/generic/babel-spanish/spanish.ldf
 Language: spanish.ldf 2016/03/03 v5.0p Spanish support from the babel system
@@ -824,6 +824,8 @@ nguage=dflt;+tlig;+tnum;+onum;+smcp;"
 \cvcolumngapwidth=\skip63
 \cvleftcolumnwidth=\skip64
 \cvrightcolumnwidth=\skip65
+luaotfload | cache : Lookup cache loaded from /home/juan/.texlive2019/texmf-var/
+luatex-cache/generic-dev/names/luaotfload-lookup-cache.luc.
 
 Package fontspec Info: Could not resolve font "RobotoMedium/BI" (it probably
 (fontspec)             doesn't exist).
@@ -937,8 +939,8 @@ Package fontspec Info: Font family 'RobotoLight(0)' created for font 'Roboto
 \cvparskip=\skip72
 
 (./CV_JUAN_IGNACIO_TEICH.aux
-LaTeX Info: Redefining \. on input line 8.
-LaTeX Info: Redefining \% on input line 8.
+LaTeX Info: Redefining \. on input line 7.
+LaTeX Info: Redefining \% on input line 7.
 )
 \openout1 = CV_JUAN_IGNACIO_TEICH.aux
 
@@ -1134,50 +1136,59 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `RobotoLightItalic' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-<Logo_SG.png, id=5, 2569.6pt x 1077.02374pt>
-File: Logo_SG.png Graphic file (type png)
-<use Logo_SG.png>
-Package luatex.def Info: Logo_SG.png  used on input line 302.
-(luatex.def)             Requested size: 30.04805pt x 12.58847pt.
+<Logo_STAMM.png, id=5, 512.91624pt x 99.37125pt>
+File: Logo_STAMM.png Graphic file (type png)
+<use Logo_STAMM.png>
+Package luatex.def Info: Logo_STAMM.png  used on input line 296.
+(luatex.def)             Requested size: 30.04805pt x 5.821pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 302.
+(Font)              <7> on input line 296.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 302.
+(Font)              <5> on input line 296.
 
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (
 RS)
 )
-<Logo_FIUBA.png, id=6, 186.2157pt x 186.2157pt>
-File: Logo_FIUBA.png Graphic file (type png)
-<use Logo_FIUBA.png>
-Package luatex.def Info: Logo_FIUBA.png  used on input line 315.
-(luatex.def)             Requested size: 30.04805pt x 30.048pt.
-File: Logo_FIUBA.png Graphic file (type png)
-<use Logo_FIUBA.png>
-Package luatex.def Info: Logo_FIUBA.png  used on input line 351.
-(luatex.def)             Requested size: 30.04805pt x 30.048pt.
 
+LaTeX Font Warning: Font shape `TU/RobotoLight(0)/b/n' undefined
+(Font)              using `TU/RobotoLight(0)/m/n' instead on input line 296.
+
+<Logo_SG.png, id=6, 2569.6pt x 1077.02374pt>
+File: Logo_SG.png Graphic file (type png)
+<use Logo_SG.png>
+Package luatex.def Info: Logo_SG.png  used on input line 321.
+(luatex.def)             Requested size: 30.04805pt x 12.58847pt.
+<Logo_FIUBA.png, id=7, 186.2157pt x 186.2157pt>
+File: Logo_FIUBA.png Graphic file (type png)
+<use Logo_FIUBA.png>
+Package luatex.def Info: Logo_FIUBA.png  used on input line 334.
+(luatex.def)             Requested size: 30.04805pt x 30.048pt.
+File: Logo_FIUBA.png Graphic file (type png)
+<use Logo_FIUBA.png>
+Package luatex.def Info: Logo_FIUBA.png  used on input line 370.
+(luatex.def)             Requested size: 30.04805pt x 30.048pt.
 
 LaTeX Font Warning: Font shape `TU/RobotoLight(0)/m/it' undefined
-(Font)              using `TU/RobotoLight(0)/m/n' instead on input line 351.
+(Font)              using `TU/RobotoLight(0)/m/n' instead on input line 370.
 
-<Logo_edx.png, id=7, 2569.6pt x 1445.4pt>
+<Logo_edx.png, id=8, 2569.6pt x 1445.4pt>
 File: Logo_edx.png Graphic file (type png)
 <use Logo_edx.png>
-Package luatex.def Info: Logo_edx.png  used on input line 367.
+Package luatex.def Info: Logo_edx.png  used on input line 386.
 (luatex.def)             Requested size: 30.04805pt x 16.89412pt.
-<Logo_HC.png, id=8, 256.96pt x 256.96pt>
+<Logo_HC.png, id=9, 256.96pt x 256.96pt>
 File: Logo_HC.png Graphic file (type png)
 <use Logo_HC.png>
-Package luatex.def Info: Logo_HC.png  used on input line 380.
+Package luatex.def Info: Logo_HC.png  used on input line 399.
 (luatex.def)             Requested size: 30.04805pt x 30.04576pt.
 [1
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}<./photo.jpg><./072-location.
-pdf><./067-phone.pdf><./070-envelop.pdf><./Logo_SG.png><./Logo_FIUBA.png><./Logo
-_edx.png><./Logo_HC.png>] [2] (./CV_JUAN_IGNACIO_TEICH.aux
+pdf><./067-phone.pdf><./070-envelop.pdf><./Logo_STAMM.png><./Logo_SG.png><./Logo
+_FIUBA.png><./Logo_edx.png><./Logo_HC.png>] [2]
+(./CV_JUAN_IGNACIO_TEICH.aux
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
 )
@@ -1187,22 +1198,22 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 )
 
 Here is how much of LuaTeX's memory you used:
- 9319 strings out of 481365
+ 9330 strings out of 481365
  100000,662416 words of node,token memory allocated
  502 words of node memory still in use:
    4 hlist, 1 vlist, 1 rule, 4 glue, 3 kern, 1 glyph, 7 attribute, 61 glue_spec,
  5 attribute_list, 1 write nodes
-   avail lists: 2:931,3:148,4:85,5:154,6:76,7:2937,8:1,9:316,10:12,11:377
- 25694 multiletter control sequences out of 65536+600000
- 88 fonts using 14394139 bytes
+   avail lists: 2:895,3:135,4:80,5:155,6:64,7:2648,8:1,9:290,10:12,11:334
+ 25700 multiletter control sequences out of 65536+600000
+ 88 fonts using 14394467 bytes
  59i,8n,100p,300b,319s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/share/texlive/texmf-dist/fonts/opentype/google/roboto/Roboto-Regular.otf><
 /usr/share/texlive/texmf-dist/fonts/opentype/google/roboto/Roboto-LightItalic.ot
 f></usr/share/texlive/texmf-dist/fonts/opentype/google/roboto/Roboto-Light.otf><
 /usr/share/texlive/texmf-dist/fonts/opentype/google/roboto/Roboto-Medium.otf>
-Output written on CV_JUAN_IGNACIO_TEICH.pdf (2 pages, 723450 bytes).
+Output written on CV_JUAN_IGNACIO_TEICH.pdf (2 pages, 728695 bytes).
 
-PDF statistics: 87 PDF objects out of 1000 (max. 8388607)
+PDF statistics: 89 PDF objects out of 1000 (max. 8388607)
  58 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
