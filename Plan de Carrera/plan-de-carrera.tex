@@ -1,0 +1,319 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc} %tipo de letra
+
+\usepackage[spanish,es-nodecimaldot]{babel} %idioma
+\usepackage{graphicx} 
+\usepackage{mathtools}
+\usepackage{float}
+\usepackage{multicol}
+\usepackage[a4paper, headsep=24pt, headheight=2cm]{geometry}
+\usepackage{anysize} 
+\usepackage{accents}
+\usepackage{changepage}
+\usepackage{caption}
+\usepackage[affil-it]{authblk}
+\usepackage{tikz}
+\usepackage{physics}
+%\usepackage[]{minted}
+\usepackage{hyperref}%para poner hiperreferencias, tipo links
+\usepackage{esint}
+\usepackage{titling}
+\usepackage{bm}
+\usepackage{import}
+\usepackage[final]{pdfpages}
+\usepackage{cancel}
+
+\usepackage{blindtext}
+\usepackage{chemfig}%ecuaciones químicas
+\usepackage{chemformula}%idem
+\usepackage[version=4]{mhchem}%idem
+\usepackage{siunitx}%unidades del sistema internacional
+\usepackage{enumitem}
+
+\usepackage{verbatim}
+\usepackage{amsmath}%matematica
+%\setcounter{MaxMatrixCols}{20}
+
+\usepackage{array,booktabs}
+%\usepackage[separate-uncertainty = true]{siunitx}
+%\sisetup{output-decimal-marker = {,}}
+%\usepackage{placeins}
+
+%\usepackage{mathabx}
+\usepackage{amssymb}
+
+%\usepackage[dvipsnames]{xcolor}
+\usepackage{tcolorbox}
+\usepackage{mwe}
+
+\usetikzlibrary{arrows}%Este no necesita mucha explicación
+
+\usepackage{fancyhdr}
+\pagestyle{plain}
+
+\usepackage{framed}%para frames en todo entorno
+
+\usepackage{pgfplotstable}
+\pgfplotsset{compat=1.15}
+\usepackage{mathrsfs}
+\usetikzlibrary{arrows}
+
+\usepackage{hyperref}
+\hypersetup{
+%bookmarks=true,         % show bookmarks bar
+unicode=false,          % non-Latin characters in Acrobat’s bookmarks
+pdftoolbar=true,        % show Acrobat’s toolbar?
+pdfmenubar=true,        % show Acrobat’s menu?
+pdffitwindow=false,     % window fit to page when opened
+pdftitle={Plan-Carrera-Ciclo-Superior-IM-Teich},    % title
+pdfauthor={JTeich},     % author
+pdfsubject={},          % subject of the document
+pdfkeywords={},
+colorlinks=true,        % false: boxed links, true: colored links
+linkcolor=black,        % color of internal links (change box color with linkbordercolor)
+citecolor=black,        % color of links to bibliography
+filecolor=magenta,      % color of file links
+urlcolor=black           % color of external links
+}
+\usepackage{multicol}
+\usepackage{outlines}
+
+\usepackage{biblatex}
+%\addbibresource{bibliografia.bib}
+
+\newcommand{\thetitle}{Plan de Carrera\\ Ciclo Superior}
+\newcommand{\theauthorJT}{Juan Ignacio Teich}
+\newcommand{\thedate}{Octubre 2023}
+%\newcommand{\theclass}{Sistemas Hidráulicos y Neumáticos}
+%\newcommand{\thecourse}{}
+%\newcommand{\thecareer}{}
+\usepackage{fancyhdr}
+\usepackage[T1]{fontenc}
+\usepackage{helvet}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[R]{\fontfamily{phv} \footnotesize{Plan de Carrera para el Ciclo Superior \\ \href{mailto:jteich@fi.uba.ar}{\theauthorJT} \\ \thedate }}
+\fancyhead[C]{\fontfamily{phv}  \centering \includegraphics[width=3cm]{depto.png}}
+\fancyhead[L]{\fontfamily{phv} \includegraphics[width=3cm]{Logo-fiuba-2.png}}
+\usepackage{lastpage}
+\fancyfoot[R]{\fontfamily{phv} \thepage}
+\fancyfoot[C]{\fontfamily{phv} \footnotesize{Av. Paseo Colón 850 - C1063ACV - Buenos Aires - Argentina}}
+\allowdisplaybreaks
+\newcommand{\Cancel}[2][black]{{\color{#1}\cancel{\color{black}#2}}}
+
+\usetikzlibrary{shapes}
+\numberwithin{equation}{subsection}
+
+%\usepackage{xpatch}
+%\xpatchcmd{\section}{\normalfont\Large\bfseries}{\sectionbox}{}{\PatchFailed}
+
+\newcommand*{\sectionbox}[1]{%
+	\noindent \begin{tcolorbox}
+		[
+		colback=blue!70,% background
+		colframe=blue,% frame colour
+		coltext=white, % text color
+		width=\linewidth,%
+		height=0.7cm, 
+		halign=left,
+		valign=center,
+		fontupper=\large\bfseries,
+		arc=0mm, auto outer arc,
+		]
+		#1
+	\end{tcolorbox} 
+} %
+
+\usepackage{longtable}
+
+\usepackage{sectsty}
+\sectionfont{\large}
+
+\nocite{*}
+
+
+
+\begin{document}
+\fontfamily{phv}
+%\newcommand{\matriz}[1]{\underline{\underline{\pmb{#1}}}}
+%\newcommand{\mmatriz}[1]{\underline{\underline{\underline{\pmb{#1}}}}}
+%\newcommand{\vect}[1]{\underline{\bm{#1}}}
+
+\begin{titlepage}
+    \begin{center}
+    \includegraphics[width=0.35\textwidth]{Logo-fiuba-2.png} \hfill \includegraphics[width=0.35\textwidth]{depto.png}\\
+    \vspace{1cm}
+    {\bfseries \LARGE Facultad de Ingeniería}\\
+    \vspace{0.5cm}
+    {\scshape \Large Universidad de Buenos Aires}\\
+    \vspace{3cm}
+    {\scshape \Huge \thetitle}\\
+    \end{center}
+    %\vspace{1cm}
+    %{\scshape \Large \theclass}\\
+    \vfill
+    {\Large Alumno:\\[10pt] \indent\theauthorJT\; (102247)\\[10pt] \indent jteich@fi.uba.ar}\\[20pt]
+    {\Large Tutor Académico:\\[10pt] \indent Dr. Ing. Otero, Alejandro Daniel\\[10pt] \indent Investigador Adjunto (CONICET) - Profesor Adjunto (FIUBA) \\[10pt] \indent jteich@fi.uba.ar}\\
+    \vfill
+    \begin{center}
+		{\large \thedate}
+    \end{center}
+\end{titlepage}
+
+\vbox{
+	{\large
+	\noindent\begin{minipage}[t][0.5\textheight][t]{\textwidth}
+		\sectionbox{Información Básica del Alumno:}
+		\vspace{0.5cm}
+		\begin{tabular}{l l}
+			Nombre y Apellido & Juan Ignacio Teich\\
+			Número de Padrón & 102247\\
+			Cantidad de Créditos Aprobados & 242\\
+			Trabaja & Sí\\
+			Nombre de la Empresa o Institución & Stämm Biotech\\
+			Sector/Actividad & Simulaciones Numéricas\\
+			Teléfono fijo & \\
+			Teléfono móvil & +54-11-6491-6389\\
+			e-mail & jteich@fi.uba.ar
+		\end{tabular}
+		\vspace{2cm}
+		\begin{flushright}
+			Firma del Alumno
+		\end{flushright}
+	\end{minipage}
+	
+	\nointerlineskip
+	\noindent \begin{minipage}[b][0.5\textheight][t]{\textwidth}
+		\vspace{0.4in}
+		\sectionbox{Información Básica del Tutor Académico:}
+		\vspace{0.5cm}
+		\begin{tabular}{l l}
+			Nombre y Apellido & Alejandro Daniel Otero\\
+			Título Universitario & Ingeniero Mecánico\\
+			Institución & Facultad de Ingeniería, Universidad de Buenos Aires\\
+			Departamento & Energía\\
+			Cargo & Profesor Adjunto\\
+			Actividad Principal & Investigación\\			
+			Teléfono fijo & \\
+			Teléfono móvil & +54-11-5982-3027\\
+			e-mail & aotero@fi.uba.ar
+		\end{tabular}
+		\vspace{2cm}
+		\begin{flushright}
+			Firma del Tutor Académico
+		\end{flushright}
+	\end{minipage}
+	}
+}
+
+\normalsize
+\noindent\sectionbox{Perfil Profesional}
+Ingeniero Mecánico con orientación a la simulación por métodos numéricos. Las materias optativas fueron elegidas por mi interés en la orientación mencionada, desarrollando todas las materias optativas disponibles al respecto: \textit{Intro. al Método de los Elementos Finitos (67.58)}, \textit{Intro al Análisis Tensorial (67.60)}, \textit{Mecánica del Continuo (67.59)}, \textit{Elementos Finitos Avanzados (67.62)} y \textit{Elementos Finitos Avanzados en la Mecánica de Fluidos (67.57)}. Estas materias, en conjunto con \textit{Mecánica de los Fluidos} facilitarán el desarrollo de la TIM.
+
+Por otro lado, opté por completar mi perfil con materias de orientaciones variadas, para tener un perfil más completo. Para completar mi perfil en cuanto al diseño mecánico, opté por realizar \textit{Elementos de Máquinas (67.25)} y \textit{Materiales Ferrosos y sus Aplicaciones (67.50)}. Para completar en cuanto a la rama termomecánica, opté por realizar \textit{Transferencia de Calor y Masa (67.31)} y \textit{Combustión (67.30)}. Además realicé para completar mi perfil de manera general la materia \textit{Probabilidad y Estadística (61.06)}.
+
+\pagebreak
+\pgfplotstableset{
+	begin table=\begin{longtable},
+		every head row/.style={before row=\hline, after row=\hline \hline},
+		every last row/.style={after row=\hline},
+		end table= \end{longtable},
+}
+\noindent\sectionbox{Detalle Analítico de Materias del Ciclo Básico Común (CBC)}
+\pgfplotstabletypeset[
+col sep=comma,
+string type,
+columns={Materia, Nota, Ano, Cuat},
+columns/Materia/.style={column name=Materia, column type={|c}},
+columns/Nota/.style={column name=Nota, column type={|c}},
+columns/Ano/.style={column name=Año, column type={|c}},
+columns/Cuat/.style={column name=Cuat, column type={|c|}},
+]{cbc.csv}
+
+\noindent\sectionbox{Detalle Analítico de Materias de Ingeniería Mecánica (FIUBA)}
+\textbf{\large Materias Obligatorias Aprobadas}
+
+\pgfplotstabletypeset[
+col sep=comma,
+string type,
+columns={Codigo, Materia, Creditos, Nota, Ano, Cuat},
+columns/Codigo/.style={column name=Código, column type={|c}},
+columns/Materia/.style={column name=Materia, column type={|c}},
+columns/Creditos/.style={column name=Créditos, column type={|c}},
+columns/Nota/.style={column name=Nota, column type={|c}},
+columns/Ano/.style={column name=Año, column type={|c}},
+columns/Cuat/.style={column name=Cuat, column type={|c|}},
+]{historia_academica.csv}
+
+\textbf{\large Materias Optativas Aprobadas}
+
+\pgfplotstabletypeset[
+col sep=comma,
+string type,
+columns={Codigo, Materia, Creditos, Nota, Ano, Cuat},
+columns/Codigo/.style={column name=Código, column type={|c}},
+columns/Materia/.style={column name=Materia, column type={|c}},
+columns/Creditos/.style={column name=Créditos, column type={|c}},
+columns/Nota/.style={column name=Nota, column type={|c}},
+columns/Ano/.style={column name=Año, column type={|c}},
+columns/Cuat/.style={column name=Cuat, column type={|c|}},
+]{optativas.csv}
+
+\textbf{\large Créditos por Actividades Extra-Curriculares}
+\pgfplotstabletypeset[
+col sep=comma,
+string type,
+columns={Actividad, Descripcion, Creditos},
+columns/Actividad/.style={column name=Actividad, column type={|c}},
+columns/Descripcion/.style={column name=Descripción, column type={|c}},
+columns/Creditos/.style={column name=Créditos, column type={|c|}},
+]{extracurr.csv}
+
+\textbf{\large Materias Obligatorias Cursadas o por Cursar}
+\pgfplotstabletypeset[
+col sep=comma,
+string type,
+columns={Codigo, Materia, Creditos, Ano, Cuat},
+columns/Codigo/.style={column name=Código, column type={|c}},
+columns/Materia/.style={column name=Materia, column type={|c}},
+columns/Creditos/.style={column name=Créditos, column type={|c}},
+columns/Ano/.style={column name=Año, column type={|c}},
+columns/Cuat/.style={column name=Cuat, column type={|c|}},
+]{oblporcursar.csv}
+
+\textbf{\large Materias Optativas Cursadas o por Cursar}
+\pgfplotstabletypeset[
+col sep=comma,
+string type,
+columns={Codigo, Materia, Creditos, Ano, Cuat},
+columns/Codigo/.style={column name=Código, column type={|c}},
+columns/Materia/.style={column name=Materia, column type={|c}},
+columns/Creditos/.style={column name=Créditos, column type={|c}},
+columns/Ano/.style={column name=Año, column type={|c}},
+columns/Cuat/.style={column name=Cuat, column type={|c|}},
+]{optporcursar.csv}
+
+\newpage
+\noindent\sectionbox{Síntesis de la Distribución de Créditos al Finalizar la Carrera}
+\large
+\begin{center}
+\begin{tabular}{l | c}
+	 & Créditos\\ \hline
+	Materias Obligatorias & 190\\
+	Materias Optativas & 52\\
+	Créditos Extra Curriculares & 0\\
+	Tesis o Trabajo Profesional & 18\\ \hline \hline \addlinespace
+	\textbf{Total} & \textbf{260}\\
+\end{tabular}
+\end{center}
+
+\normalsize
+\vspace{25mm}
+\noindent\begin{tabular}{p{2in}p{2in}p{2in}}
+	 && \includegraphics[width=4cm]{firma-JIT.png}\\
+	\hrulefill && \hrulefill \\
+	Firma del Tutor Académico && Firma del Alumno\\
+	Alejandro Otero && Juan Ignacio Teich (102247)
+\end{tabular}
+
+\end{document}

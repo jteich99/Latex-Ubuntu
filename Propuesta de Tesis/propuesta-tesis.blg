@@ -1,20 +1,20 @@
 [0] Config.pm:304> INFO - This is Biber 2.14 (beta)
 [0] Config.pm:307> INFO - Logfile is 'propuesta-tesis.blg'
-[60] biber:322> INFO - === lun oct  2, 2023, 20:30:42
-[71] Biber.pm:415> INFO - Reading 'propuesta-tesis.bcf'
-[121] Biber.pm:940> INFO - Using all citekeys in bib section 0
-[132] Biber.pm:4256> INFO - Processing section 0
-[132] Utils.pm:75> INFO - Globbing data source 'bibliografia.bib'
-[132] Utils.pm:91> INFO - Globbed data source 'bibliografia.bib' to bibliografia.bib
-[140] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliografia.bib' for section 0
-[141] bibtex.pm:1653> INFO - LaTeX decoding ...
-[148] bibtex.pm:1471> INFO - Found BibTeX data source 'bibliografia.bib'
-[190] Utils.pm:293> WARN - BibTeX subsystem: /tmp/biber_tmp_tG9z/bibliografia.bib_1398132.utf8, line 40, warning: undefined macro "phdthesis"
-[190] Utils.pm:293> WARN - BibTeX subsystem: /tmp/biber_tmp_tG9z/bibliografia.bib_1398132.utf8, line 48, warning: undefined macro "bathesis"
-[190] Utils.pm:293> WARN - BibTeX subsystem: /tmp/biber_tmp_tG9z/bibliografia.bib_1398132.utf8, line 56, warning: undefined macro "mathesis"
-[201] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
-[201] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[201] Biber.pm:4084> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'es-ES'
-[209] bbl.pm:652> INFO - Writing 'propuesta-tesis.bbl' with encoding 'UTF-8'
-[213] bbl.pm:755> INFO - Output to propuesta-tesis.bbl
-[213] Biber.pm:128> INFO - WARNINGS: 3
+[59] biber:322> INFO - === vie oct  6, 2023, 20:35:41
+[70] Biber.pm:415> INFO - Reading 'propuesta-tesis.bcf'
+[120] Biber.pm:940> INFO - Using all citekeys in bib section 0
+[129] Biber.pm:4256> INFO - Processing section 0
+[130] Utils.pm:75> INFO - Globbing data source 'bibliografia.bib'
+[130] Utils.pm:91> INFO - Globbed data source 'bibliografia.bib' to bibliografia.bib
+[137] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliografia.bib' for section 0
+[138] bibtex.pm:1653> INFO - LaTeX decoding ...
+[147] bibtex.pm:1471> INFO - Found BibTeX data source 'bibliografia.bib'
+[209] Utils.pm:293> WARN - BibTeX subsystem: /tmp/biber_tmp_fmjK/bibliografia.bib_14078.utf8, line 40, warning: undefined macro "phdthesis"
+[209] Utils.pm:293> WARN - BibTeX subsystem: /tmp/biber_tmp_fmjK/bibliografia.bib_14078.utf8, line 48, warning: undefined macro "bathesis"
+[209] Utils.pm:293> WARN - BibTeX subsystem: /tmp/biber_tmp_fmjK/bibliografia.bib_14078.utf8, line 56, warning: undefined macro "mathesis"
+[222] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[222] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[222] Biber.pm:4084> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'es-ES'
+[232] bbl.pm:652> INFO - Writing 'propuesta-tesis.bbl' with encoding 'UTF-8'
+[236] bbl.pm:755> INFO - Output to propuesta-tesis.bbl
+[236] Biber.pm:128> INFO - WARNINGS: 3

@@ -19,6 +19,91 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{barile_simulacion_2022}{article}{}
+      \name{author}{2}{}{%
+        {{hash=9e970fe2f52fd3a93f0b8bda280493dc}{%
+           family={Barile},
+           familyi={B\bibinitperiod},
+           given={D\bibnamedelima A},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=e5f8fa3e918e523cff882f1dcb34c17a}{%
+           family={Otero},
+           familyi={O\bibinitperiod},
+           given={A\bibnamedelima D},
+           giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{3166b77fdcdb46202c4f9c87ccb4edbb}
+      \strng{fullhash}{3166b77fdcdb46202c4f9c87ccb4edbb}
+      \strng{bibnamehash}{3166b77fdcdb46202c4f9c87ccb4edbb}
+      \strng{authorbibnamehash}{3166b77fdcdb46202c4f9c87ccb4edbb}
+      \strng{authornamehash}{3166b77fdcdb46202c4f9c87ccb4edbb}
+      \strng{authorfullhash}{3166b77fdcdb46202c4f9c87ccb4edbb}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Simulación de Efectos Transitorios en el Parque Eólico Rawson: Impacto de los Cambios de Dirección de Viento.}
+      \field{year}{2022}
+      \true{nocite}
+    \endentry
+    \entry{barile_transient_2023}{article}{}
+      \name{author}{4}{}{%
+        {{hash=9e970fe2f52fd3a93f0b8bda280493dc}{%
+           family={Barile},
+           familyi={B\bibinitperiod},
+           given={D\bibnamedelima A},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=897e297c4bd92e2eb3ffb02d23cda406}{%
+           family={Navarro\bibnamedelima Diaz},
+           familyi={N\bibinitperiod\bibinitdelim D\bibinitperiod},
+           given={G\bibnamedelima P},
+           giveni={G\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=81eb92db59107bc082ff37958e3e61b6}{%
+           family={Sosa},
+           familyi={S\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod}}}%
+        {{hash=e5f8fa3e918e523cff882f1dcb34c17a}{%
+           family={Otero},
+           familyi={O\bibinitperiod},
+           given={A\bibnamedelima D},
+           giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{c30a161cc138bf2b561dab4ae20266bb}
+      \strng{fullhash}{c50322934d981fe8b351bf43e7262279}
+      \strng{bibnamehash}{c30a161cc138bf2b561dab4ae20266bb}
+      \strng{authorbibnamehash}{c30a161cc138bf2b561dab4ae20266bb}
+      \strng{authornamehash}{c30a161cc138bf2b561dab4ae20266bb}
+      \strng{authorfullhash}{c50322934d981fe8b351bf43e7262279}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{1742-6588, 1742-6596}
+      \field{journaltitle}{Journal of Physics: Conference Series}
+      \field{month}{5}
+      \field{number}{1}
+      \field{shorttitle}{Transient phenomena study in wind energy by means of {LES} simulations}
+      \field{title}{Transient phenomena study in wind energy by means of LES simulations: impact of wind direction changes}
+      \field{urlday}{6}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{volume}{2505}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{012038}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1742-6596/2505/1/012038
+      \endverb
+      \verb{urlraw}
+      \verb https://iopscience.iop.org/article/10.1088/1742-6596/2505/1/012038
+      \endverb
+      \verb{url}
+      \verb https://iopscience.iop.org/article/10.1088/1742-6596/2505/1/012038
+      \endverb
+    \endentry
     \entry{NAVARRODIAZ2021121642}{article}{}
       \name{author}{3}{}{%
         {{hash=3f5124d505ef7f7ae31660c1f26caa2e}{%
@@ -167,6 +252,30 @@
       \field{year}{2018}
       \true{nocite}
     \endentry
+    \entry{mikkelsen_actuator_2004}{book}{}
+      \name{author}{1}{}{%
+        {{hash=95dbec5f017902dedf33ad7d685ddc8a}{%
+           family={Mikkelsen},
+           familyi={M\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{95dbec5f017902dedf33ad7d685ddc8a}
+      \strng{fullhash}{95dbec5f017902dedf33ad7d685ddc8a}
+      \strng{bibnamehash}{95dbec5f017902dedf33ad7d685ddc8a}
+      \strng{authorbibnamehash}{95dbec5f017902dedf33ad7d685ddc8a}
+      \strng{authornamehash}{95dbec5f017902dedf33ad7d685ddc8a}
+      \strng{authorfullhash}{95dbec5f017902dedf33ad7d685ddc8a}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-87-7475-296-7}
+      \field{note}{OCLC: 474919625}
+      \field{title}{Actuator disc methods applied to wind turbines}
+      \field{year}{2004}
+      \true{nocite}
+    \endentry
     \entry{NavarroThesis}{thesis}{}
       \name{author}{1}{}{%
         {{hash=897e297c4bd92e2eb3ffb02d23cda406}{%
@@ -188,7 +297,7 @@
       \field{sortinithash}{98cf339a479c0454fe09153a08675a15}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Simulación del efecto de la interacción de turbinas eólicas con su entorno}
+      \field{title}{Simulación del efecto de la interacción de turbinas eólicas con su `entorno}
       \field{year}{2019}
       \true{nocite}
     \endentry
